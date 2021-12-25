@@ -1,7 +1,6 @@
-const burger = document.querySelector("#burger");
-const menue = document.querySelector("#menue")
+const burger = document.querySelector("#temp");
 
-burger.addEventListener('click',() =>{
-  menue.classList.toggle("hidden");
+burger.addEventListener('hover',() =>{
+  burger.classList.toggle('underline');
 })
 
